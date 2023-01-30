@@ -1,0 +1,36 @@
+		Welcome to Angular 12 Module
+				Sumit Raokhande
+	
+- daily monday to friday 
+- daily avg duration 1.15min duration 1.30min
+- all recording is given but that recording is only view purpose that recording is present 4-5 days 
+- all code will be given
+- all soft copy notes will given that notes is display or used within that session except image 
+- duration 48 hr to 50 hr 
+- we learn typescript
+- angular freamwork
+- pre-requiest 
+	1 oops concept
+	2 Basics of html & css 
+
+- fee - 6000
+	1st installed => 3000 => within days 
+	2nd installed => 3000 => 25 days after 1st installed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
