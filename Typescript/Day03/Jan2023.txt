@@ -1,0 +1,98 @@
+Last Lecture
+1 Difference Between Angular Js & Angular 2+
+	- object based lang / oops orientated
+	- MVC arch / MVW 
+	- memory is not effective / memory is  effective 
+	- degrade performance / increase in performance
+	- mobile comunity is not support / it support to all 
+	- js based / typescript based 
+2 what is Typescript?
+	typescript= ecma script standard + ecma version + additional features 
+	adv
+	1 strong static typing
+	2 compile time error
+	3 oops support
+	disadv 
+	1 browser does not support ts 
+		tsc => typescript compiler
+		it transcompile ur .ts file into .js file 
+	2 more compiler time 
+3 simple program
+	demo1.ts
+	console.log("Hello World");
+	tsc demo1.ts 
+	node demo1.js 
+	tsc demo1.ts & node demo1.js 
+4 variable
+	var a1;
+	
+5 data type
+	number,string,boolean,any,void,null & undefined
+	
+	var a:number=10;
+	console.log("Value of a"+a);
+	console.log(`value of a is ${a} `);
+	var str!:string;
+	console.log("Value str "+str)
+	var a:any;
+	a=2.5;
+	a='sumit';
+	a=true;
+	
+	
+6 Literal
+	var a:number|string;
+	a=2.5;
+	a='';
+	var a:50|string;
+	a=50;
+	a='sumit';
+	
+	var a:string|null;	
+	
+
+Today Lecture
+1 Type assertion 
+2 Operators
+3 control statement
+4 loop statement
+5 var vs let vs const
+6 functions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
