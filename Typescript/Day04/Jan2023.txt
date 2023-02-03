@@ -1,0 +1,92 @@
+Last Lecture
+1 Type assertion 
+var a:any;
+	var temp=(<string>a)
+	var temp=(a as string)
+2 Operators
+	
+3 control statement
+	if,if-else,switch,break,continue
+	if(rating<4){
+	....
+	}
+4 loop statement
+	while,do-while,for loop 
+	
+	for(let i=0;i<4;i++){
+	
+	}
+5 var vs let vs const
+
+	var => global scope
+	let=> within nearest block 
+	const=> global as well as local scope 
+6 functions
+	function add1(){
+		....
+	}
+	
+	add1();
+	
+	function add1(a:number,b:number){
+		...
+	}
+	
+	add1(4,5);
+	
+	function add3():number{
+		return (8+8)
+	}
+	
+	function add4(a:number,b:number):number{
+		let temp;
+		return (a+b);
+	}
+	
+	let res=add4(4,5);
+	....
+
+Today Lecture
+1 Anonymous Functions
+2 Fat arrow functions
+3 FAR => Function activation record
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
