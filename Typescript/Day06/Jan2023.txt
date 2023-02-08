@@ -1,0 +1,83 @@
+Last Lecture
+1 Optional parameter functions
+	function add1(a?:number,b?:number){
+	...
+	}
+	add1(10);
+	
+2 default parameter functions
+	function add1(a:number,b:number=10){
+	...
+	}
+	
+	add1(4,45);
+	
+3 basics of array
+	let a:number[]=[...];
+	let a:any[]=[];
+	let a=[2.5,'Sumit'];
+	console.log(a.join("  "));
+	
+4 foreach
+	a.foreach((myvalue,i)=>{
+	...
+	})
+5 join
+6 rest parameter functions
+	function display(str:string,...item:number[]){
+	
+	}
+	
+	display(10,54,85);
+	
+7 push & pop
+	a.push(45,78,90);
+	let res=a.pop();
+
+Today Lecture
+1 Splice method
+2 slice
+3 map
+4 json object
+5 Array of Object
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
