@@ -1,0 +1,127 @@
+Last Lecture
+1 Splice method
+	let a:number[]=[4,5,6,7];
+	a.splice(2,0,45);
+	a.splice(3,0,78,89);
+	a.splice(2,1);
+	a.splice(3,2);
+	a.slice(1,1,78);
+	
+2 slice
+	let temp=a.slice(1,6);
+	
+3 map
+	let res=a.map((value)=>{
+		return (value*value);
+	})
+	
+4 json object
+	let obj={
+		id:9,
+		"fname":'Sumit',
+		lname:''
+	}
+	1 dot 
+	2 square
+	obj.id
+	obj.fname
+	
+	obj["id"]
+	obj['fname'];
+5 Array of Object
+	let arrobj=[
+		{
+			id:9,
+			fname:'sumit',
+			country:{
+				cid:1,
+				cnmae:'india'
+			},
+			month:[....],
+			result:[
+				{
+					subj:'M1',
+					marks:40
+				},
+				{
+					subj:'M1',
+					marks:40
+				}
+			]
+		},
+		{
+			id:9,
+			fname:'sumit'
+		}
+		,{
+			id:9,
+			fname:'sumit'
+		}
+	]
+
+
+for(let i=0;i<arrobj.length;i++){
+		console.log(`
+			arrobj[i].id
+			arrobj[i].country.cname
+			arrobj[i].month.join("  ")
+		`)
+		
+	arrobj[i].result.foreach((value)=>{
+			console.log(`
+				value.subj
+				value.marks
+			`)
+	})
+		
+}
+
+Today Lecture
+1 Additional Features of Typescript
+2 Class, object ,property
+3 method 
+4 constructor
+5 Same Package 
+6 Different Package 
+7 Access Specifier
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
