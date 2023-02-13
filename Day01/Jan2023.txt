@@ -1,0 +1,77 @@
+Last Lecture
+1 Inheritance
+2 method Override
+3 Interface
+	interface Employee{
+		fname:string;
+		..
+		fullname?:string;
+		display();
+	}
+	
+	export class EmployeeDetails implements Employee{
+			..
+			sal:number
+			
+			dept:Department;
+			
+			constructor(...,role:string){
+			
+			this.dept=new Department(role)
+			}
+			
+			display(){
+			..
+			}
+			
+	}
+4 composition/has a relation/contentment
+
+Today Lecture
+1 Angular Setup
+2 Angular Project creation
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
