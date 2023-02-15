@@ -1,0 +1,103 @@
+Last Lecture
+1 Arch. Overview
+	- It is component Orientated Arch.
+	- component 
+		1 view file => .html => actual data is render in html tag => only one view file 
+		2 stylesheet file => .css  => apply css to html tag => it may multiple
+		3 component file => .ts => it contains only PL => only one component file 
+		4 tesing => .specs.ts
+		
+		- metadata
+			- It gives extra infromation about that component
+			- It finalize the view file,css file & its selector 
+			@Component({
+				....
+			})
+			export class xyzComponent{}
+	- Directive 
+		- it change or manipulate dynamically ur behaviour of view file structure 
+		1 Attribute directive
+			ngStyle,ngClass,...
+		2 Structural directive
+			*ngIf,*ngFor,*ngSwitch
+		3 component directive
+			
+		4 event directive
+	- App module 
+		- every angular application has one root file
+		- multiple feature module/custom module 
+		1 declaration
+			- we can declare/register our component 
+		2 import
+			- we can import a module 
+		3 service => providers
+			- It is simple class 
+			- u can write ur businsess logic 
+			- it is used to code resualbilty
+			- it is used to code maintainability
+			- It is used to provide isolation to component
+			- to establish the connection between backend & frontend 
+			- we have to DI 
+		4 routing
+			- it is navigation from one component to another component
+			- Lazy loading 
+	- Injector
+		- u can add 3rd party services 
+		- u can add inbuild angular services in ur angular
+2 Angular Application Flow 
+3 Create component manually 
+
+
+Today Lecture
+1 Create component through cli
+2 Data binding
+	- data flow from component file to view file 
+		1 String interpolation 
+		2 Property Binding
+		3 Style Binding
+		4 Class Binding
+3 String interpolation
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
