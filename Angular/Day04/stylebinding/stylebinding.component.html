@@ -1,0 +1,9 @@
+<p>stylebinding works!</p>
+<!-- u if u want apply style dynamically to any html tags then we go for style binding 
+    syntax => [style.csspropertyname]="PropertyName"
+-->
+
+<h2 [style.color]="mycolor" >Apply Style Binding  </h2>
+
+<h2 [style.color]="(rating<4 || rating ==4 )?'red':'green'" >Apply style Binding on condition</h2>
+    

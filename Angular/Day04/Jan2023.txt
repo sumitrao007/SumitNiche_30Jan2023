@@ -1,0 +1,80 @@
+Last Lecture
+1 Create component through cli
+ng g c student
+	employee.component.html
+	<app-student>
+2 Data binding
+	- data flow from component file to view file 
+		1 String interpolation 
+		2 Property Binding
+		3 Style Binding
+		4 Class Binding
+3 String interpolation
+	ng g c stringinterpolation
+	app.component.html
+	<app-stringinterpolation>
+	
+	- to render data dynamically 
+	- it is apply on all tag
+	{{propertyname}}
+	
+	<h2> {{name}} </h2>
+	<h2> {{"Welcome "+name}} </h2>
+	<h2> {{num1+num1}} </h2>
+	<img src=" {{imgUrl}} ">
+	
+	
+	
+	.ts file
+	name:string='...';
+	num1:number=4;
+	imgUrl:string='../../assets/bg4.jpg';
+	
+	
+Today Lecture
+1 Property Binding
+2 Difference between string interpolation vs property binding
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
