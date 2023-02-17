@@ -1,0 +1,74 @@
+Last Lecture
+1 Property Binding
+	<input [value]="name">
+	<img [src]='imgUrl'>
+	<table >
+		tr 
+			td [attr.colspan]="colcount"> one
+		</tr>
+		tr>
+		 td>..
+		 td>...
+	
+	.ts file
+	name:string='...';
+	imgUrl:string='';
+	colcount:number=2;
+	
+2 Difference between string interpolation vs property binding
+	div hidden=" {{isHidden}} ">...
+	
+	div [hidden]="isHidden">.... 
+	
+	.ts 
+	isHidden:boolean=false;
+3 Style Binding
+	
+Today Lecture
+1 Style Binding
+2 class Binding
+3 Event Binding 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
