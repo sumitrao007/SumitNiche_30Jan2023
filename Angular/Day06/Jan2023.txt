@@ -1,0 +1,96 @@
+Last Lectclaure
+1 Style Binding
+	ngStyle
+	<div [ngStyle]="jsonobj">...
+	
+	div [ngStyle]="{
+	...
+	}"
+	
+	.trs file
+	jsonobj={
+		color:'blue',
+		fontFamily:'...',
+		'font-size':...
+	}
+2 class Binding
+	<h2 [class]="myclass">...
+	<h2 [class.danger]="rating<4"
+		[class.warning]="rating>4">
+	
+	<div [ngClass]="jsonobj">....
+	
+	.ts file
+	myclass:string='success';
+	rating:number=2;
+	isError:boolean=true;
+	isSpecial:boolean=true;
+	jsonobj={
+		'success':!this.isError,
+		'danger': this.isError,
+		'special':this.isSpecial
+		
+	}
+3 Event Binding 
+	<button (click)="onClick()">
+	
+	.ts file
+	
+	count:number=0;
+	
+	onClick(){
+	if(this.count==0){
+	....
+	this.count++;
+	}
+		
+	}
+
+Today Lecture
+1 Event Binding
+2 $event
+3 template ref. variable
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

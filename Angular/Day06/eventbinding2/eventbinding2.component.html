@@ -1,0 +1,28 @@
+<p>eventbinding2 works!</p>
+<img class="myimg" id="myid" (click)="onImgClick()" src="../../assets/bg4.jpg" alt="">
+<br><br>
+
+<!-- $event
+    - It is special variable given by angular
+    - It gives current DOM element information
+    - u can apply any html tag but it apply on current html element
+    - u can only access the data of that current dom element info.
+-->
+
+<button value="Doller Event!!!" (click)="onDollerEvent($event)" >Doller Event </button> <br><br>
+
+<!-- template ref. variable
+    - it holds object/handle of html element
+    - it gives information about that particular html element 
+    - it is apply all html tags
+    - or it can apply on component directive 
+    - u can access as well as manipulate the bheavoiur of html elelment
+-->
+
+<input #inputname type="text" placeholder="Enter the name "> <br><br>
+<button (click)="onSend(inputname)">Send</button>
+<br><br>
+<input #inputname1 type="text" placeholder="Enter the name "> <br><br>
+<button (click)="onSend1(inputname1.value)">Send</button>
+<br>
+
