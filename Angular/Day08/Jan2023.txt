@@ -1,0 +1,101 @@
+Last Lectclaure
+1 Real time Example
+	<input #num1>
+	<input #num2>
+	<button (click)="onAddition(num1.value,num2.value)">
+	<input [value]="result">
+	.ts
+	
+	onAddition(num1:any,num2:any){
+		let n1=+num1;
+		...
+		this.result=n1+n1;
+	}
+2 change event 
+	<input (change)="onChnage()">
+	
+	.ts file 
+	onChnage(){
+	...
+	}
+3 keyboard event
+	1 keyup
+	2 keydown
+	<input (keyup)="onKeyup()">
+	
+	.ts file
+	onKeyup(){
+	....
+	}
+	
+	<input (keydown)="onKeydown()">
+	
+	.ts file
+	onKeydown(){
+	....
+	}
+		
+4 keyboard filtering/event filtering
+	
+	<input (keyup.enter)="onKeyEnter()">
+	
+
+
+Today Lecture
+1 Event binding without event handler
+	pre-requiest
+	 - to create 1 property & ur logic should one line logic 
+2 Two way binding
+3 Structural directive
+	- u can dynmically show/hide/manipulate ur dom structure 
+	1 *ngIf => on condition
+	2 *ngFor => u want to ietrate dynamically 
+	3 *ngSwitch => for particular case to excecute 
+4 if directive
+5 ng-template => it is component directive
+6 for directive 
+	
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
