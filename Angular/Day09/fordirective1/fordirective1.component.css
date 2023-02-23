@@ -1,0 +1,7 @@
+th,tr,td{
+    border: 1px solid;
+}
+.highlight{
+    background: green;
+    color: white;
+}

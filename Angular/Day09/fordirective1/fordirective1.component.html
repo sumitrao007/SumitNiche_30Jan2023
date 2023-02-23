@@ -1,0 +1,43 @@
+<p>fordirective1 works!</p>
+
+<table>
+    <thead>
+        <th>Sr no</th>
+        <th>Product name</th>
+        <th>Product Price</th>
+        <th>Product Quantity</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of arrproduct;index as i ">
+            <td> {{i+1}} </td>
+            <td> {{item.name}} </td>
+            <td> {{item.price}} </td>
+            <td> {{item.qty}} </td>
+        </tr>
+    </tbody>
+</table>
+<hr>
+<table>
+    <thead>
+        <th>Sr no</th>
+        <th>Product name</th>
+        <th>Product Price</th>
+        <th>Product Quantity</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of arrproduct;index as i;trackBy:kuchbhi"
+        (mouseover)="onMouseOver(item)"
+        [ngClass]="{
+            'highlight':selected===item.name
+        }"
+        (mouseout)="onMouseOut()"
+        >
+            <td> {{i+1}} </td>
+            <td> {{item.name}} </td>
+            <td> {{item.price}} </td>
+            <td> {{item.qty}} </td>
+        </tr>
+    </tbody>
+</table>
+<br><br>
+<button (click)="onGetMore()">GetMore</button>

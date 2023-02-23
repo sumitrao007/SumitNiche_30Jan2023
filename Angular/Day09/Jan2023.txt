@@ -1,0 +1,81 @@
+Last Lectclaure
+1  Event binding without event handler
+	pre-requiest
+	 - to create 1 property & ur logic should one line logic 
+	 <button (click)="result=5+5">{{result}}
+2 Two way binding
+	<input [(ngModel)]="name">
+	
+	.ts 
+	name:string=''
+	app.module.ts
+	import : FormsModule
+3 Structural directive
+	- u can dynmically show/hide/manipulate ur dom structure 
+	1 *ngIf => on condition
+	2 *ngFor => u want to ietrate dynamically 
+	3 *ngSwitch => for particular case to excecute 
+4 if directive
+	<div *ngIf="rating<4;else elesepart1">
+	...
+	
+	<ng-template #elesepart1>
+		<h2>...
+5 ng-template => it is component directive
+6 for directive
+	<ul >
+		<li *ngFor="let item of course;index as i "> {{i+1}} {{item}}<li>
+
+Today Lecture
+1 for directive
+2 Mouse Event
+	1 mouseover
+	2 mouseout
+
+
+
+	
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
