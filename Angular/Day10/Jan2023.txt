@@ -1,0 +1,76 @@
+Last Lectclaure
+1  for directive
+<tr (mouseover)="onMouseover(item)" 
+*ngFor="let item of arrprod;index as i;trackBy:kuchbhi"
+	[ngClass]="{'highlight':selected===item.name}"
+	(mouseout)="onMouseout()"
+>
+	<td>...
+	
+	.ts file
+	
+	onMouseover(item:any){
+		this.selected=item.name;
+	}
+	onMouseout(){
+		this.selected='';
+	}
+	
+	kuchbhi(index :any,item:any){
+		return index;
+	}
+2 Mouse Event
+	1 mouseover
+	2 mouseout
+3 trackBy
+
+Today Lecture
+1 switch directive
+
+
+
+	
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
