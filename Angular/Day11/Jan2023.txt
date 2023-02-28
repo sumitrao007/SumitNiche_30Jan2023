@@ -1,0 +1,61 @@
+Last Lectclaure
+1 switch directive
+
+
+Today Lecture
+1 Compoenet Interaction
+	- u can send data from one component to another component
+	pre-requiest
+		parent-child relationship 
+2 @Input()
+3 @Output()
+	- send data from child to parent 
+	- to data for that we have create a custom event 
+
+
+
+	
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
