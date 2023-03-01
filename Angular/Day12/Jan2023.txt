@@ -1,0 +1,92 @@
+Last Lectclaure
+1 Compoenet Interaction
+	- u can send data from one component to another component
+	pre-requiest
+		parent-child relationship 
+2 @Input()
+	app.component.html
+	<app-parent1>
+	
+	parent.ts
+	strdata:string='...';
+	
+	
+	parent.html
+	<app-child1 [parendata]="strdata">
+	child1.ts
+	@Input() parendata:string='';
+	child1.html
+	{{parendata}}
+	
+3 @Output()
+	- send data from child to parent 
+	- to data for that we have create a custom event 
+	
+	parent1.html
+	{{childstrdata}}
+	
+	<app-child2 (childstrevent)="childstrdata=$event">
+	
+	child2.html
+	<button (click)="onSend()">
+	child2.ts
+	
+		@Output() childstrevent=new EventEmitter();
+		strdata='';
+	
+	onSend(){
+		this.childstrevent.emit(this.strdata);
+	}
+	
+Today Lecture
+1 @ViewChild
+	1 u can access parent view element in parent compo.file directly 
+	2 u can access child property & child method in parent compo
+
+
+
+	
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

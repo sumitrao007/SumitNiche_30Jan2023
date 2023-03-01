@@ -1,0 +1,29 @@
+.divBorder{
+    border: 2px solid green;
+    width: 450px;
+}
+
+.divMargin{
+    margin: 10px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.maindiv{
+    display: flex;
+}
+.btnDiv{
+    margin: 10px;
+    padding: 5px;
+    justify-content: center;
+    line-height: 5em;
+}
+
+.btnDiv button{
+    margin: 10px;
+    padding: 5px;
+}
+
+.childDiv{
+    margin-left: 25px;
+}
