@@ -1,0 +1,56 @@
+Last Lectclaure
+1 @ViewChild
+	1 u can access parent view element in parent compo.file directly 
+	2 u can access child property & child method in parent compo
+
+Today Lecture
+1 ng-content
+	- u can send a html element from parent component to ur child component
+	
+
+
+	
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

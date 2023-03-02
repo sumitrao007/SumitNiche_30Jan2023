@@ -1,0 +1,13 @@
+<p>parent-content works!</p>
+<hr>
+<!-- <app-child-view [parentElement]="strData">
+
+</app-child-view> -->
+
+<app-child-view *ngFor="let item of [1,2]">
+    <label for="">Email::</label><br>
+    <!-- <input type="text" (change)="onEmailChange($event)" placeholder="Enter the Email Id:: "><br> -->
+    <input type="text" (focus)="onEmailkeyfocus($event)" (change)="onEmailChange($event)" placeholder="Enter the Email Id:: "><br>
+    <span [hidden]="isShow" style="color: red;">Enter the Email Id </span>
+    
+</app-child-view>
