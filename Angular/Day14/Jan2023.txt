@@ -1,0 +1,55 @@
+Last Lectclaure
+1 ng-content
+	- u can send a html element from parent component to ur child component
+	
+
+Today Lecture
+1 Pipe
+	- it transfrom ur data to end user without changing its original value 
+2 Inbuild Pipe 
+	
+	
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
