@@ -1,0 +1,29 @@
+<p>custompipe works!</p>
+
+<h2> {{strdetails}} </h2>
+
+<!-- <h2> {{strdetails | summary}} </h2> -->
+
+<h2> {{strdetails | summary:0:35}} </h2>
+
+<hr>
+<input type="text" placeholder="Enter the search Term" [(ngModel)]="searchTerm" >
+<br><br>
+<table >
+        <thead>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Status</th>
+            <th>Department</th>
+            <th>country</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of arrEmp | filter:searchTerm">
+                <td> {{item.id}} </td>
+                <td> {{item.name}} </td>
+                <td> {{item.status}} </td>
+                <td> {{item.dept}} </td>
+                <td> {{item.country}} </td>
+            </tr>
+        </tbody>
+</table>

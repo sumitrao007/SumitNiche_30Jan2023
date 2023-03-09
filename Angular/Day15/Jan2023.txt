@@ -1,0 +1,66 @@
+Last Lectclaure
+1 Pipe
+	- it transfrom ur data to end user without changing its original value 
+2 Inbuild Pipe 
+string,percent,currency,number,date
+
+Today Lecture
+1 Custom Pipe
+	ng g p summary
+2 Pure Pipe 
+3 Impure pipe => if ur data is non deterministic 
+4 PipeTransform
+5 transform
+6 @Pipe 
+7 filter pipe 
+
+
+
+
+
+	
+	
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
