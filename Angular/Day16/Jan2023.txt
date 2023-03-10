@@ -1,0 +1,72 @@
+Last Lectclaure
+1 Custom Pipe
+	ng g p summary
+2 Pure Pipe 
+3 Impure pipe => if ur data is non deterministic 
+4 PipeTransform
+5 transform
+6 @Pipe 
+7 filter pipe 
+
+Today Lecture
+1 Service
+	- It is simple class 
+	- it is used to write down BL 
+	- It provides isolation to the component
+	- It is used code resualbility 
+	- code maintaibility
+	- to connect ur backend server to front end server 
+2 dependancy injection
+
+
+
+
+
+
+
+	
+	
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
