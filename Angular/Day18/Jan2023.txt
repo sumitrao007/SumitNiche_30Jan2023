@@ -1,0 +1,111 @@
+Last Lectclaure
+1 Http Method
+	1 get => to fetch a data from backend server 
+	2 post => to send data to backend server 
+	3 put  => to update a particular record
+	4 delete => to delete record 
+2 Http Request/Response
+		Http Request has 2 parts 
+			1 Http header	
+				- ip
+				- date
+				- auth
+				- content type
+					- image
+					- pdf 
+					- image 
+					- json
+				- method
+				- url 
+			2 Http body
+				- data => json / text / xml format
+				
+				Http Response has 2 parts 
+			1 Http header	
+				- ip
+				- date
+				- auth
+				- content type
+					- image
+					- pdf 
+					- image 
+					- json
+				- method
+				- url 
+				- status code 
+					1 2xx => success,ok 
+					2 3xx => redirection 
+					3 4xx => client side 
+					4 5xx => server side 
+			2 Http body
+				- data => json / text / xml format
+	
+3 http://jsonplaceholder.typicode.com/posts
+	- it is fake web service 
+	- it does store any data into database => post,put,delete => but it gives a proper response of ur request 
+	
+
+4 @injectable
+5 observable
+6 get
+
+Today Lecture
+1 Post
+2 put 
+3 delete 
+4 error handling
+5 we generalised our url 
+
+
+
+
+
+
+
+
+	
+	
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
