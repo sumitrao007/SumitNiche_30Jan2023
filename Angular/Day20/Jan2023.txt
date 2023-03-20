@@ -1,0 +1,71 @@
+Last Lectclaure
+1 Routing
+	- navigation from one component to another component
+2 Routing Steps
+	1 configure the route
+	2 use <router-outlet>
+	3 establish the link/navigate between component
+3 empty path
+	- u can set a default component to be render
+4 wild cart operator
+
+Today Lecture
+1 Send parameter
+2 Query Parameter
+3 using navigate method
+
+
+
+
+
+
+
+
+
+
+	
+	
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
