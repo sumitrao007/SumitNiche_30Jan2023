@@ -1,0 +1,12 @@
+Last Lectclaure
+1 Send parameter
+2 Query Parameter
+3 using navigate method
+
+Today Lecture
+1 Child routes
+	http://localhost:4200/product/mobile
+2 Lazy Loading
+	
+3 create a custom module/feature module 
+4 create routing file
