@@ -1,0 +1,15 @@
+Last Lectclaure
+1 Child routes
+	http://localhost:4200/product/mobile
+	
+2 Lazy Loading
+	
+3 create a custom module/feature module 
+4 create routing file
+	ng g m user --routing 
+
+Today Lecture
+1 Modify the routing
+2 RxJx Lib
+3 Subject 
+4 BehaviorSubject
