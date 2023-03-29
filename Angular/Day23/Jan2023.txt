@@ -1,0 +1,18 @@
+Last Lectclaure
+1 Modify the routing
+2 RxJx Lib
+3 Subject 
+4 BehaviorSubject
+
+Today Lecture
+1 Bootstrap Overview
+	- to make UI attractive
+	- to make ur application responsive
+	- it is a css freamwork
+	- it gives a template code 
+2 Integration of Bootstrap
+	1 online integration
+		CDN Link => Content delivery network 
+		
+	2 offline integration
+3 How to use auth guard

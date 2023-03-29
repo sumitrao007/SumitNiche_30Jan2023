@@ -1,0 +1,35 @@
+<p>demobootstrap works!</p>
+
+<div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-md-6">
+                <table class="table table-bordered table-dark">
+                    <thead>
+                        <th>Sr no</th>
+                        <th>Product name</th>
+                        <th>Product Price</th>
+                        <th>Product Quantity</th>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let item of arrproduct;index as i ">
+                            <td> {{i+1}} </td>
+                            <td> {{item.name}} </td>
+                            <td> {{item.price}} </td>
+                            <td> {{item.qty}} </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="col-sm-4 col-md-6">
+                <div class="form-group">
+                    <label for="">Email Id::</label> 
+                    <input #email type="text" class="form-control" placeholder="Enter the email">
+                    <label for="">Password::</label> 
+                    <input #password type="password" class="form-control" placeholder="Enter the Password"> <br>
+                    <button class="btn btn-success" (click)="onLogin(email.value,password.value)">Login</button>
+                </div>
+            </div>
+        </div>
+
+</div>
