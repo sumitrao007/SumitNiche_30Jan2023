@@ -1,0 +1,34 @@
+Last Lectclaure
+1 Bootstrap Overview
+	- to make UI attractive
+	- to make ur application responsive
+	- it is a css freamwork
+	- it gives a template code 
+2 Integration of Bootstrap
+	1 online integration
+		CDN Link => Content delivery network 
+		
+	2 offline integration
+3 How to use auth guard
+
+Today Lecture
+1 Template driven Form
+	- simple form design then we use tdf 
+	- login,signup,f/b,application form etc 
+	- basic level validation is on on view file 
+2 FormControl
+	- it is a class 
+	
+	1 valid => true/false
+	2 invalid => true 
+	3 touched => true 
+	4 pristine => true  
+	5 dirty  => true 
+	6 errors => object => 
+	
+	steps 
+	1 use ngModel => use without notation [()] => it hold a formControl object => u have to use name attribute 
+	2 create template ref variable & assign ngModel to it. 
+	3 for validation purpose we use above property => we have use required attribute 
+	
+3 ngForm
