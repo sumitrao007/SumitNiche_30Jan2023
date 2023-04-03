@@ -1,0 +1,27 @@
+Last Lectclaure
+1 Template driven Form
+	- simple form design then we use tdf 
+	- login,signup,f/b,application form etc 
+	- basic level validation is on on view file 
+2 FormControl
+	- it is a class 
+	
+	1 valid => true/false
+	2 invalid => true 
+	3 touched => true 
+	4 pristine => true  
+	5 dirty  => true 
+	6 errors => object => 
+	
+	steps 
+	1 use ngModel => use without notation [()] => it hold a formControl object => u have to use name attribute 
+	2 create template ref variable & assign ngModel to it. 
+	3 for validation purpose we use above property => we have use required attribute 
+	
+3 ngForm
+4 json pipe
+
+Today Lecture
+1 Continue tdf
+2 ngSubmit
+3 ngValue
